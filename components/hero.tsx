@@ -101,7 +101,7 @@ const Hero = () => {
               className="absolute -left-4 md:-left-12 bottom-10 md:bottom-20 bg-white p-5 md:p-8 rounded-[25px] md:rounded-[30px] shadow-2xl border border-slate-50 z-20 hidden sm:flex items-center gap-3 md:gap-5"
             >
               <div className="w-10 h-10 md:w-14 md:h-14 bg-[#ffb400] rounded-xl md:rounded-2xl flex items-center justify-center text-black shadow-lg shadow-[#ffb400]/20">
-                 <span className="font-black text-lg md:text-xl italic">1+</span>
+                 <span className="font-black text-lg md:text-xl italic">2+</span>
               </div>
               <div>
                  <h4 className="text-slate-900 font-black text-base md:text-lg tracking-tighter">SDK SOLUTIONS</h4>
