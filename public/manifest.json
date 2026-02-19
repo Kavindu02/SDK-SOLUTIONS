@@ -1,0 +1,21 @@
+{
+    "name": "SDK Solutions",
+    "short_name": "SDK",
+    "description": "Modern web, mobile and custom software solutions.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffb400",
+    "icons": [
+        {
+            "src": "/sdklogo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/sdklogo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
