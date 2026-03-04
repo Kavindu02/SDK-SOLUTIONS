@@ -8,13 +8,13 @@ export async function POST(req: Request) {
     const { name, email, subject, message } = await req.json();
 
     const { data, error } = await resend.emails.send({
-      from: 'SDK Solutions <onboarding@resend.dev>',
+      from: 'SYNTECHCRAFT <onboarding@resend.dev>',
       to: 'kavindurajitha2002@gmail.com',
-      subject: `Contact Form: ${subject}`,
+      subject: `New Contact Form Submission: ${subject}`,
       replyTo: email,
       html: `
         <div style="font-family: sans-serif; padding: 20px; border: 1px solid #eee; border-radius: 10px;">
-          <h2 style="color: #333;">New Message from Contact Form</h2>
+          <h2 style="color: #333;">New Message from SYNTECHCRAFT Website</h2>
           <hr />
           <p><strong>Name:</strong> ${name}</p>
           <p><strong>Email:</strong> ${email}</p>
@@ -24,7 +24,7 @@ export async function POST(req: Request) {
             ${message.replace(/\n/g, '<br/>')}
           </div>
           <hr />
-          <p style="font-size: 12px; color: #888;">This message was sent via the website contact form.</p>
+          <p style="font-size: 12px; color: #888;">This message was sent via the SYNTECHCRAFT website contact form.</p>
         </div>
       `,
     });
