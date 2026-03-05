@@ -9,6 +9,7 @@ import { useEffect, useRef, useState } from 'react'
 import { CheckCircle2, BarChart3, PieChart, TrendingUp, Users, Briefcase, Globe, ArrowRight, MapPin, Phone, Mail, Rocket, Zap, Award, ArrowUpRight, Smartphone, Facebook, Linkedin, ArrowUp } from 'lucide-react'
 import projectsData from '@/data/projects.json'
 
+
 // Languages/Tech Stack Data
 const languages = [
   { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg' },
