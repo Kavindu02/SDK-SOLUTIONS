@@ -665,7 +665,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col">
                     <span className="block text-slate-500 font-extrabold uppercase text-[8px] md:text-[9px] tracking-[0.2em] mb-1">{item.label}</span>
-                    <span className="text-white font-bold text-base md:text-lg italic group-hover:text-[#ffb400] transition-colors cursor-default block">{item.val}</span>
+                    <span className="text-white font-bold text-base md:text-lg italic group-hover:text-[#ffb400] transition-colors cursor-default block whitespace-nowrap">{item.val}</span>
                   </div>
                 </div>
               ))}
